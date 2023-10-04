@@ -1,0 +1,61 @@
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
+}
+
+body {
+    background-image: url(Img/icons/tela\ fundo.png);
+}
+
+
+header {
+    width: 100vw;
+    height: 100px;
+    display: flex;
+
+}
+
+.logo {
+   width: 25%;
+   height: 100px;
+
+}
+
+.logo img {
+    padding-top: 2rem;
+    padding-left: 2rem;
+    width: 10rem;
+    height: 5rem;
+}
+
+nav {
+    width: 60%;
+    height: 100px;
+    text-align: center;
+    padding-top: 3.5rem;
+}    
+
+nav a {
+    margin-right: 1.5rem;
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+div.login {
+    width: 25%;
+    height: 100px;
+}
+
+.login input {
+    margin-top: 3rem;
+    padding: 2rem 2rem;
+    background: rgb(190, 28, 65);
+    border: 1px solid rgb(190, 28, 65);
+    border-radius: ;
+}
+
+main {
+    
+}
