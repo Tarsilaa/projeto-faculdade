@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
+}
+
+body{
+    background-image: url(imgs/Icons/tela\ fundo.png);
+    overflow: hidden;
+    
+}
+header{
+    width: 100vw;
+    height: 100px;
+    display: flex;
+
+   
+}
+
+.logo{
+    width: 20%;
+    height: 100px;   
+}
+
+.logo img{
+    padding-top: 25px;
+    padding-bottom: 70px;
+    padding-left: 4.3rem;
+    margin: 20px;
+    
+
+
+
+    width: 235px;
+    height: 200px;
+}
+nav{
+    width: 60%;
+    height: 100px;
+    justify-content: center;
+    padding-top: 3.2rem;
+    padding-left: 5.5rem;
+    padding-right: 3rem;
+
+    
+}
+
+nav a {
+    margin-right: 2rem;
+    text-decoration: none;
+    color: antiquewhite;
+    text-align: center;
+    font-size: 2.24em;
+    font-weight: bolder;
+    
+}
+
+nav a:hover{
+    text-decoration: 2rem dotted #fff;
+    transition: 120ms ease-in;
+    text-shadow: -2px -2px 13px #ffffff;
+    text-decoration: underline 3px;
+    
+}
+
+.login {
+    width: 20%;     
+    height: 100px;
+
+}
+
+.login input{
+    margin-top: 3.5rem;
+    
+    background: rgb(190, 28,65);
+    border: 1px solid rgb(190, 28,65);
+    border-radius: 2em;
+    color: #fff;
+    font-size: 20px;
+    padding: 11px 40px;
+    padding-left: 70px;
+    box-shadow: 0 8px 16px 0 rgba(19, 18, 18, 0.2)
+               ,0 6px 20px 0 rgba(19,18,18 ,0.19 );
+    
+    
+
+
+    background-image: url(imgs/quadrados/Voltar.png);
+    background-position: left;
+    background-position: 15px;
+    background-size: 40px ;
+    background-repeat: no-repeat;
+    
+}
+
+.login input:hover{
+    background-image: url(imgs/quadrados/Voltar.png);
+    background-position: left;
+    background-position: 25px;
+    background-size: 40px ;
+
+    transition: 150ms;
+
+    font-weight: bolder;
+    letter-spacing: .2rem;
+    font-family: 'Barlow', sans-serif;
+    
+}
+
+.logintxt{
+    
+    margin-left: 20px;
+    align-items: end;
+
+}
+
+
+main{
+    
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(imgs/Icons/bg.png);
+    background-size: cover;
+    background-position: center bottom 4.3rem;
+    
+    position: relative;
+    z-index: 10;
+}
+
+.esquerda {
+
+    width: 40%;
+    height: 500px;
+    margin-top: 90px;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    font-size: medium;
+    text-align: left;
+
+
+}
+
+.inputs{
+    
+    position: absolute;
+    top: 23.5rem;
+    left: 1.5rem;
+
+    width: 29rem;
+
+    display: flex;
+    justify-content:space-evenly;
+   
+    
+    
+}
+.input1{
+    margin-top: 3.5rem;
+    padding: 1rem 3rem;
+
+    background: rebeccapurple;
+    border: 1px solid rebeccapurple;
+    border-radius: 2em;
+
+    text-align: center;
+    font-weight: bolder;
+    letter-spacing: .2rem;
+    font-family: 'Barlow', sans-serif;
+
+    color: #fff;
+
+    box-shadow: 0 8px 16px 0 rgba(19, 18, 18, 0.2)
+    ,0 6px 20px 0 rgba(19,18,18 ,0.19 );
+
+}
+
+.input2{
+    margin-top: 3.5rem;
+    padding: 1rem 2.5rem;
+    background: rgb(190, 28,65);
+    border: 1px solid rgb(190, 28,65);
+    border-radius: 2em;
+    text-align: center;
+    font-weight: bolder;
+    letter-spacing: .2rem;
+
+     font-family: 'Barlow', sans-serif;
+
+    color: #fff;
+
+    box-shadow: 0 8px 16px 0 rgba(19, 18, 18, 0.2)
+    ,0 6px 20px 0 rgba(5, 5, 5, 0.336);
+}
+
+
+.direita{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: 660px;
+    padding-right: 1rem;
+    padding-bottom: 11.5rem;
+    font-size: smaller;
+    font-weight: bold;
+
+    position: relative;
+    z-index:-10;
+
+}
+
+.direita p{
+    position: relative;
+    left: 2.3rem;
+    top: 5rem;
+    
+}
+
+.icons a{
+    
+    width: 35px;
+    height: 35px;
+    display: flex;
+    position: relative;
+    float: left;
+    top: 4.5rem;
+}
+
+span{
+    padding-right: 20rem;
+    font-style: italic;
+}
+
+section p{
+    margin-bottom: 1rem;
+}
+
+article h1{
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    line-height: 3.3rem;
+   
+    text-align-last: left;
+}
+
+.meio {
+    width: 40vw;
+    height: 70vh;
+    position: absolute;
+    left: 35%;
+    top: 20%;
+
+}
+
+
+.meio img {
+    height: 120%;
+    width: 102%;
+    position: relative;
+    bottom: 7rem;
+}
+
+.meio::before {
+   content: url(imgs/Pessoasp/Pessoas4k.png);
+    display: none; /* Inicialmente oculto */
+}
+
+.meio:hover::before {
+    display: inline; /* Exibir ao passar o mouse sobre o elemento */
+    position: absolute;
+    z-index: 10;
+    bottom:0;
+  
+}
+
+.seu-elemento::after {
+    content: "Depois";
+    display: none; /* Inicialmente oculto */
+}
+
+.seu-elemento:hover::after {
+    display: inline; /* Exibir ao passar o mouse sobre o elemento */
+}
+
+
